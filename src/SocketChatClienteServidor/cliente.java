@@ -127,7 +127,7 @@ public class cliente extends javax.swing.JFrame {
             // limpio la caja de texto tras haber enviado el mensaje
             txtMensaje.setText("");
         }catch(IOException e){ // si hay errores
-            JOptionPane.showMessageDialog(null, "No se pudo enviar el mensaje\n" + e); // mensaje de error
+            JOptionPane.showMessageDialog(null, "No se pudo enviar el mensaje\n" + e); 
         }
     }//GEN-LAST:event_btnEnviarActionPerformed
 
